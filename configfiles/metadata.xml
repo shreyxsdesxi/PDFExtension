@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage
+         dependsOn=""
+         description=""
+         haCompatible="false"
+         minimumThingWorxVersion="9.1.0"
+         name="KC.Thingworx.ExportToPDF.Test"
+         packageVersion="1.0.0"
+         vendor="Thingworx Labs">
+            <JarResources>
+                <FileResource
+                 description=""
+                 file="com.lowagie.text-2.1.7.jar"
+                 type="JAR"></FileResource>
+                <FileResource
+                 description=""
+                 file="kc.thingworx.exporttopdf.test.jar"
+                 type="JAR"></FileResource>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage
+         className="ExportToPDFTestThingTemplate"
+         description=""
+         name="ExportToPDFTestThingTemplatePackage"></ThingPackage>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate
+         aspect.isEditableExtensionObject="true"
+         description=""
+         name="ExportToPDFTestThingTemplate"
+         thingPackage="ExportToPDFTestThingTemplatePackage"></ThingTemplate>
+    </ThingTemplates>
+</Entities>
